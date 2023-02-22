@@ -1,0 +1,26 @@
+.timer-container{
+    min-height: 100vh;
+
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BA2D0B;
+    font-size: 1.5rem;
+}
+
+.timer div{
+    /* border: 2px solid #BA2D0B; */
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    width: 10rem;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 0px black;
+}
+
+.timer-text{
+    display: block;
+}

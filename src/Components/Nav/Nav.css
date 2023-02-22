@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@500&display=swap');
+.nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(213, 242, 227);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 10px 1px black;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  margin-right: 2rem;
+}
+
+.link:hover{
+  color: #BA2D0B;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-left: 2rem;
+  background: linear-gradient(to right, #BA2D0B, #01110A);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@500&display=swap');
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 81vh;
+}
+
+.timer-text{
+    text-transform: uppercase;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2rem;
+ }
+
+ .home-items {
+    margin-top: 2rem;
+ }
+
+ .h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+ }
+
+ .mail-input{
+    width: 400px;
+    padding: 0.7rem;
+    outline-color: #BA2D0B;
+    border-radius: 8px;
+    border: 2px solid black;
+ }
+
+ .mail-btn{
+    padding: 0.7rem;
+    width: 150px;
+    border-radius: 8px;
+    background-color: #BA2D0B;
+    color: rgb(213, 242, 227);
+    border: none;
+    margin-left: 1rem;
+    cursor: pointer;
+ }
+
+
+/* color: #BA2D0B;
+rgb(213, 242, 227) */
